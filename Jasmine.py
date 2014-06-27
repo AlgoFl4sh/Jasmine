@@ -40,7 +40,6 @@ def mindist(bots, loc):
 class Robot:
     def act(self, game):
 
-        # Used to make the code a little more readable
         robots = game.robots
 
         # Use turn_number to tell if this is the first robot called this turn
